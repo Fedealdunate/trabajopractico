@@ -8,6 +8,20 @@ h1 {font-family: monospace;
     text-decoration: underline;
     font-size: 80px;}
 h2 {text-align: left;}
+nav {background-color: white;
+     width: 65%;
+     font-style: italic;
+     font-family: monospace;
+     font-size: 30px;
+     }
+header {width: 50%;
+        float: left;}
+section {background-color: lightblue;
+         width: 40%;
+         float: right;}
+footer {float: left;
+        width: 40%;}
+
 .botonnav {border: 10px solid white;
            border-color: white;
            border-width: medium}
@@ -30,15 +44,33 @@ h2 {text-align: left;}
              height: 250px;}
 .botonwhatsap {width: 55px;
                height: 55px;
-               float: top;
                position: fixed;
                line-height: 55px;
                bottom: 30px;
-               right: 30px;}
-header {width: 50%;
-        float: left;}
-section {background-color: lightblue;
-         width: 40%;
-         float: right;}
-footer {float: left;
-        width: 40%;}
+               background: #0df053;
+               right: 30px;
+               text-align: center;
+               color: #fff;
+               border-radius: 50px;
+               font-size: 30px;
+               box-shadow: 0px 1px 10px rgba(0,0,0,0.3);
+               z-index: 100;
+               }
+.botonwhatsap:hover{
+               text-decoration: none;
+               color: #0df053;
+               }
+.linksfooter  {width: 55px;
+               height: 55px;
+               position: static;
+               line-height: 55px;
+               bottom: 30px;
+               background: #0df053;
+               right: 30px;
+               text-align: center;
+               color: #fff;
+               border-radius: 10px;
+               font-size: 30px;
+               box-shadow: 0px 1px 10px rgba(0,0,0,0.3);
+               z-index: 100;
+               }
