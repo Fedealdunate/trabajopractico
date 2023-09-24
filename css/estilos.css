@@ -3,26 +3,29 @@ body {background-color: white;
       background-repeat: no-repeat;
       background-size: cover;
       background-attachment: fixed;
-      background-position: 50% 50%;}
+      background-position: ;}
 h1 {font-family: monospace;
     text-decoration: underline;
     font-size: 80px;}
 h2 {text-align: left;}
 nav {background-blend-mode: color;
+     background-color: lightblue;
+     width: 80.2%;
      font-style: italic;
      font-family: monospace;
      font-size: 30px;
      color: black;
+     float: center;
      }
-header {width: 50%;
-        float: left;}
+header {background-color: lightblue;
+        width: 42%;}
 section {float: left;}
 footer {float: left;
         width: 40%;}
-.button { font-family: Georgia;
+.button { font-family: Helvetica;
           color: #1e2b2e;
           font-size: 35px;
-          padding: 10px;
+          padding: 30px;
           text-decoration: none;
           -webkit-border-radius: 28px;
           -moz-border-radius: 28px;
@@ -74,7 +77,7 @@ footer {float: left;
                right: 60px;
                text-align: center;
                color: #fff;
-               border-radius: 10px;
+               border-radius: 15px;
                font-size: 30px;
                box-shadow: 0px 1px 10px rgba(0,0,0,0.3);
                z-index: 100;}
