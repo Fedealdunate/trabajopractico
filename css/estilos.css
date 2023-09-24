@@ -11,14 +11,14 @@ h2 {text-align: left;}
 nav {background-blend-mode: color;
      justify-content: space-around;
      display: flex;
-     background-color: lightblue;
      font-style: italic;
      font-family: monospace;
      font-size: 30px;
      color: black;
      }
-header {background-color: lightblue;
-        width: 42%;}
+header {display: flex;
+        justify-content: center;
+        }
 section {float: left;}
 footer {float: left;
         width: 40%;}
