@@ -8,10 +8,12 @@ body {background-image: url(../imagenes/fondo2.jpg);
       width: 100%;}
 header {display: flex;
        justify-content: space-around;
-       justify-content: space-between;
-       align-items: stretch;
+       align-items: center;
        flex-wrap: wrap;}
 h1 {font-family: monospace;
+    text-decoration: underline;
+    font-size: 80px;}
+h2 {font-family: monospace;
     text-decoration: underline;
     font-size: 80px;}
 nav {background-blend-mode: color;
@@ -32,9 +34,9 @@ footer {display: flex;
         justify-content: center;
         align-items: center;
         flex-wrap: wrap;}
-.logorecetario {width: 200px; height: 200px;
+.logorecetario {width: 150px; height: 140px;
                 border-radius: 50%;}
-.linksheader {width: 65px;
+.linksheader  {width: 65px;
                height: 65px;
                border-radius: 60px;
                padding: 10px ;}
@@ -88,6 +90,8 @@ footer {display: flex;
                border-radius: 60px;
                font-size: 30px;
                display: inline-table;
-               justify-content: center;
                padding: 15px ;}
 .videocabecera {border-radius: 50px;}
+.info {color: white;
+       text-align: left;
+       font-size: 30px;}
