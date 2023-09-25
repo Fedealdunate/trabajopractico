@@ -1,13 +1,14 @@
-body {background-image: url(../imagenes/fondo2.jpg);
+body {background-image: linear-gradient(rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0.15)), url(../imagenes/fondo2.jpg);
       background-repeat: no-repeat;
       background-size: cover;
       background-attachment: fixed;
       margin: 0;
-      z-index: 0;
+      z-index: 1;
       height: auto;
-      width: 100%;}
+      width: 100%;
+      opacity: 0.98;}
 header {display: flex;
-       justify-content: space-around;
+       justify-content: flex-start;
        align-items: center;
        flex-wrap: wrap;}
 h1 {font-family: monospace;
@@ -34,7 +35,7 @@ footer {display: flex;
         justify-content: center;
         align-items: center;
         flex-wrap: wrap;}
-.logorecetario {width: 150px; height: 140px;
+.logorecetario {width: 180px; height: 160px;
                 border-radius: 50%;}
 .linksheader  {width: 65px;
                height: 65px;
@@ -69,7 +70,8 @@ footer {display: flex;
              border-width: medium;
              width: 600px; height: 400px;
              padding: 1px;
-             margin-top: auto;}
+             margin-top: auto;
+             border-radius: 10px;}
 .botonwhatsap {width: 65px;
                height: 65px;
                position: fixed;
