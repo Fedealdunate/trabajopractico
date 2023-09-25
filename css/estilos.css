@@ -6,6 +6,11 @@ body {background-image: url(../imagenes/fondo2.jpg);
       z-index: 0;
       height: auto;
       width: 100%;}
+header {display: flex;
+       justify-content: space-around;
+       justify-content: space-between;
+       align-items: stretch;
+       flex-wrap: wrap;}
 h1 {font-family: monospace;
     text-decoration: underline;
     font-size: 80px;}
@@ -15,13 +20,8 @@ nav {background-blend-mode: color;
      font-style: italic;
      font-family: monospace;
      font-size: 30px;
-     color: black;}
-header {display: flex;
-        justify-content: space-around;
-        justify-content: space-between;
-        align-items: stretch;
-        flex-direction: row;
-        flex-wrap: wrap;}
+     color: black;
+     flex-wrap: wrap;}
 section {display: flex;
          align-items: stretch;
          flex-direction: column;}
