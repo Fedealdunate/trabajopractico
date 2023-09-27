@@ -8,7 +8,7 @@ body {background-image: linear-gradient(rgba(255, 255, 255, 0.15), rgba(255, 255
       width: 100%;
       opacity: 0.98;}
 header {display: flex;
-       justify-content: center;
+       justify-content: space-around;
        align-items: center;
        flex-wrap: wrap;}
 h1 {font-family: monospace;
