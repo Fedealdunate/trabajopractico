@@ -26,16 +26,20 @@ nav {background-blend-mode: color;
      font-size: 30px;
      color: black;
      flex-wrap: wrap;}
+div {display: flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;}
 section {display: flex;
-         align-items: stretch;
          flex-direction: column;}
 aside {display: flex;
-       align-items: baseline;
-       align-items: center;}
+      flex-direction: column;
+      align-items: center;
+      width: 40%;}
 footer {display: flex;
         justify-content: center;
         align-items: center;
-        flex-wrap: wrap;}
+        flex-wrap: wrap;
+        background-color: black;}
 .logorecetario {width: 180px; height: 160px;
                 border-radius: 50%;}
 .linksheader  {width: 60px;
@@ -63,7 +67,6 @@ footer {display: flex;
           text-align: center;
           font-size: 50px;}
 .textogeneral {color: #000033;
-               text-align: left;
                font-size: 30px;}
 .imagenprep {border: 10px solid white;
              border-color: white;
@@ -87,10 +90,9 @@ footer {display: flex;
                z-index: 100;}
 .botonwhatsap:hover {text-decoration: none;
                     color: #0df053;}
-.linksfooter  {width: 85px;
-               height: 85px;
+.linksfooter  {width: 45px;
+               height: 45px;
                border-radius: 60px;
-               font-size: 30px;
                display: inline-table;
                padding: 15px ;}
 .videocabecera {border-radius: 50px;}
