@@ -6,12 +6,14 @@ body {background-image: linear-gradient(rgba(255, 255, 255, 0.15), rgba(255, 255
       z-index: 1;
       height: auto;
       width: 100%;
-      opacity: 0.98;}
+      opacity: 0.98;
+      flex-wrap: wrap;}
 header{display: flex;
        justify-content: space-around;
        align-items: center;
        flex-wrap: wrap;
-       background-color: black;}
+       background-color: black;
+       margin: 20px;}
 nav {background-blend-mode: color;
      display: flex;
      justify-content: space-around;
@@ -28,16 +30,20 @@ h2 {text-decoration: underline;}
 main {display: flex;
       flex-direction: row;}
 section {display: flex;
-         flex-direction: column;}
+         flex-direction: column;
+         flex-wrap: wrap;}
 aside {display: flex;
       flex-direction: column;
       align-items: center;
-      width: 40%;}
+      width: 40%;
+      flex-wrap: wrap;}
 footer {display: flex;
-        justify-content: center;
+        flex-direction: row;
+        justify-content: space-around;
         align-items: center;
         flex-wrap: wrap;
-        background-color: black;}
+        background-color: black;
+        margin: 20px;}
 .logorecetario {width: 180px; height: 160px;
                 border-radius: 50%;}
 .linksheader  {width: 60px;
@@ -97,5 +103,5 @@ footer {display: flex;
                padding: 15px ;}
 .videocabecera {border-radius: 50px;}
 .info {color: white;
-       text-align: left;
-       font-size: 30px;}
+       text-align: right;
+       font-size: 15px;}
