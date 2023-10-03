@@ -7,17 +7,11 @@ body {background-image: linear-gradient(rgba(255, 255, 255, 0.15), rgba(255, 255
       height: auto;
       width: 100%;
       opacity: 0.98;}
-header {display: flex;
+header{display: flex;
        justify-content: space-around;
        align-items: center;
-       flex-wrap: wrap;}
-h1 {font-family: Copperplate;
-    color: #4B3E9C;
-    text-decoration: inherit;
-    font-size: 80px;}
-h2 {font-family: monospace;
-    text-decoration: underline;
-    font-size: 80px;}
+       flex-wrap: wrap;
+       background-color: black;}
 nav {background-blend-mode: color;
      display: flex;
      justify-content: space-around;
@@ -26,9 +20,15 @@ nav {background-blend-mode: color;
      font-size: 30px;
      color: black;
      flex-wrap: wrap;}
-div {display: flex;
-    justify-content: space-around;
-    flex-direction: row-reverse;}
+h1 {font-family: Copperplate;
+         color: #4B3E9C;
+         text-decoration: inherit;
+         font-size: 60px;}
+h2 {font-family: monospace;
+         text-decoration: underline;
+         font-size: 40px;}
+main {display: flex;
+      flex-direction: row;}
 section {display: flex;
          flex-direction: column;}
 aside {display: flex;
@@ -65,9 +65,10 @@ footer {display: flex;
           font-style: oblique;
           color: #191970;
           text-align: center;
-          font-size: 50px;}
+          font-size: 40px;}
 .textogeneral {color: #000033;
-               font-size: 30px;}
+               font-size: 30px;
+               font-style: oblique;}
 .imagenprep {border: 10px solid white;
              border-color: white;
              border-width: medium;
