@@ -24,9 +24,7 @@ h1 {font-family: Copperplate;
          color: #4B3E9C;
          text-decoration: inherit;
          font-size: 60px;}
-h2 {font-family: monospace;
-         text-decoration: underline;
-         font-size: 40px;}
+h2 {text-decoration: underline;}
 main {display: flex;
       flex-direction: row;}
 section {display: flex;
@@ -68,7 +66,8 @@ footer {display: flex;
           font-size: 40px;}
 .textogeneral {color: #000033;
                font-size: 30px;
-               font-style: oblique;}
+               font-style: oblique;
+               font-weight: bold;}
 .imagenprep {border: 10px solid white;
              border-color: white;
              border-width: medium;
