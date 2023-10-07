@@ -114,6 +114,8 @@ footer {display: flex;
 .linksfooter:hover {width: 65px;
                     height: 65px;}
 .videocabecera {border-radius: 10%;
+                width: 30em;
+                height: 20em;
                 }
 .info {color: white;
        text-align: right;
