@@ -44,6 +44,7 @@ section {display: flex;
 aside {display: flex;
       flex-direction: column;
       width: 35vw;
+      justify-content: flex-start;
       }
 footer {display: flex;
         flex-direction: row;
