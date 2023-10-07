@@ -6,8 +6,10 @@ body {background-image: linear-gradient(rgba(255, 255, 255, 0.15), rgba(255, 255
       z-index: 1;
       height: auto;
       width: 100%;
-      opacity: 0.98;}
+      opacity: 0.98;
+      ;}
 header{display: flex;
+       flex-wrap: wrap;
        justify-content: space-around;
        align-items: center;
        flex-wrap: wrap;
@@ -25,20 +27,28 @@ nav {background-blend-mode: color;
 h1 {font-family: Copperplate;
          color: #4B3E9C;
          text-decoration: inherit;
-         font-size: 60px;}
-h2 {text-decoration: underline;}
+         font-size: 60px;
+         display: flex;
+         flex-wrap: wrap;}
+
+h2 {text-decoration: underline;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;}
 main {display: flex;
       flex-direction: row;
       flex-wrap: wrap;
+      width: 100vw;
       }
 section {display: flex;
          flex-direction: column;
+         width: 50vw;
 
-       width: 50%;}
+       }
 aside {display: flex;
       flex-direction: column;
       align-items: center;
-      width: 40%;
+      width: 40vw;
     }
 footer {display: flex;
         flex-direction: row;
