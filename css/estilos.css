@@ -33,13 +33,13 @@ main {display: flex;
       }
 section {display: flex;
          flex-direction: column;
-         flex-wrap: wrap;
+
        width: 50%;}
 aside {display: flex;
       flex-direction: column;
       align-items: center;
-      width: 50%;
-      flex-wrap: wrap;}
+      width: 40%;
+    }
 footer {display: flex;
         flex-direction: row;
         justify-content: space-around;
