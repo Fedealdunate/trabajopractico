@@ -12,7 +12,8 @@ header{display: flex;
        align-items: center;
        flex-wrap: wrap;
        background-color: black;
-       margin: 20px;}
+       margin: 2%;
+       }
 nav {background-blend-mode: color;
      display: flex;
      justify-content: space-around;
@@ -32,11 +33,12 @@ main {display: flex;
       }
 section {display: flex;
          flex-direction: column;
-         flex-wrap: wrap;}
+         flex-wrap: wrap;
+       width: 50%;}
 aside {display: flex;
       flex-direction: column;
-      align-items: flex-start;
-      width: 500px;
+      align-items: center;
+      width: 50%;
       flex-wrap: wrap;}
 footer {display: flex;
         flex-direction: row;
@@ -44,13 +46,15 @@ footer {display: flex;
         align-items: center;
         flex-wrap: wrap;
         background-color: black;
-        margin: 20px;}
+        margin: 2%;}
 .logorecetario {width: 180px; height: 160px;
                 border-radius: 50%;}
 .linksheader  {width: 60px;
                height: 50px;
-               border-radius: 50px;
+               border-radius: 50%;
                padding: 10px ;}
+.linksheader:hover {width: 80px;
+                    height: 70px}
 .button {font-family: fantasy;
          color: #1e2b2e;
          font-size: 30px;
@@ -91,18 +95,21 @@ footer {display: flex;
                right: 30px;
                text-align: center;
                color: #fff;
-               border-radius: 50px;
+               border-radius: 50%;
                font-size: 30px;
                box-shadow: 0px 1px 10px rgba(0,0,0,0.3);
                z-index: 100;}
-.botonwhatsap:hover {text-decoration: none;
-                    color: #0df053;}
+.botonwhatsap:hover { width: 95px;
+                      height: 95px;}
 .linksfooter  {width: 45px;
                height: 45px;
-               border-radius: 60px;
+               border-radius: 60%;
                display: inline-table;
                padding: 15px ;}
-.videocabecera {border-radius: 50px;}
+.linksfooter:hover {width: 65px;
+                    height: 65px;}
+.videocabecera {border-radius: 10%;
+                }
 .info {color: white;
        text-align: right;
        font-size: 15px;}
