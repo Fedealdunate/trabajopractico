@@ -1,31 +1,25 @@
-body {background-image: linear-gradient(rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0.15)), url(../imagenes/fondo2.jpg);
+body {background-image: linear-gradient(rgba(255, 255, 255, 0.08), rgba(255, 255, 255, 0.08)), url(../imagenes/fondo2.jpg);
       background-repeat: no-repeat;
       background-size: cover;
       background-attachment: fixed;
-      margin: 0;
-      z-index: 1;
-      height: auto;
-      width: 100%;
-      opacity: 0.98;
-      ;}
+      width: auto;}
 header{display: flex;
        flex-wrap: wrap;
        justify-content: space-around;
-       align-items: center;
-       flex-wrap: wrap;
-       background-color: black;
-       margin: 2%;
-       }
-nav {background-blend-mode: color;
+       align-items: center;}
+nav {background: darkgrey;
      display: flex;
      justify-content: space-around;
      font-style: italic;
      font-family: monospace;
      font-size: 30px;
      color: black;
-     flex-wrap: wrap;}
+     flex-wrap: wrap;
+     width: auto;
+     border: solid lightblue 0.5vh;
+     }
 h1 {font-family: Copperplate;
-         color: #4B3E9C;
+         color: #191970;
          text-decoration: inherit;
          font-size: 60px;
          display: flex;
@@ -37,22 +31,22 @@ h2 {text-decoration: underline;
 main {display: flex;
       flex-direction: row;
       flex-wrap: wrap;
-      justify-content: center;}
+      justify-content: center;
+      width: 100%;}
 section {display: flex;
          flex-direction: column;
          width: auto;}
 aside {display: flex;
+      flex-wrap: wrap;
       flex-direction: column;
-      width: 35vw;
-      justify-content: flex-start;
+      width: 35%;
       }
 footer {display: flex;
         flex-direction: row;
         justify-content: space-around;
         align-items: center;
         flex-wrap: wrap;
-        background-color: black;
-        margin: 2%;}
+        width: auto;}
 .logorecetario {width: 180px; height: 160px;
                 border-radius: 50%;}
 .linksheader  {width: 60px;
@@ -115,4 +109,4 @@ footer {display: flex;
                 }
 .info {color: white;
        text-align: right;
-       font-size: 15px;}
+       font-size: 1.5vw;}
