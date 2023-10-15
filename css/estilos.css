@@ -31,15 +31,15 @@ h2 {text-decoration: underline;
 main {display: flex;
       flex-direction: row;
       flex-wrap: wrap;
-      justify-content: center;
-      width: 100%;}
+      justify-content: space-between;
+      width: auto;}
 section {display: flex;
          flex-direction: column;
          width: auto;}
 aside {display: flex;
-      flex-wrap: wrap;
       flex-direction: column;
-      width: 35%;
+      flex-wrap: wrap;
+      width: 30vw; height: auto;
       }
 footer {display: flex;
         flex-direction: row;
