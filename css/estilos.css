@@ -3,6 +3,8 @@ body {background-image: linear-gradient(rgba(255, 255, 255, 0.08), rgba(255, 255
       background-size: cover;
       background-attachment: fixed;
       width: auto;}
+@media (max-width: 700px)
+       {body {background: lightgrey;}}
 header{display: flex;
        flex-wrap: wrap;
        justify-content: space-around;
@@ -39,8 +41,10 @@ section {display: flex;
 aside {display: flex;
       flex-direction: column;
       flex-wrap: wrap;
-      width: 30vw; height: auto;
+      width: 34vw; height: auto;
       }
+@media (max-width: 700px)
+       {aside {display: none}};
 footer {display: flex;
         flex-direction: row;
         justify-content: space-around;
