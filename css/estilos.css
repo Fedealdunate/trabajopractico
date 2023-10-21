@@ -20,6 +20,7 @@ nav {background: darkgrey;
      width: auto;
      border: solid lightblue 0.5vh;
      }
+@media (max-width: 700px) {nav {background-color: lightgrey; border: none;}}
 h1 {font-family: Copperplate;
          color: #191970;
          text-decoration: inherit;
