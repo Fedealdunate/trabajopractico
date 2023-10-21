@@ -113,4 +113,7 @@ footer {display: flex;
        text-align: right;
        font-size: 1.5vw;}
 .sobre {background: pink;}
-.tarjetas {height: 10vw;}
+.tarjetas {width: 14vw;
+           height: 14vh;}
+.container {display: flex;
+            justify-content: center;}
