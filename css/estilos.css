@@ -5,7 +5,7 @@ body {margin-left: 1vh;
       background-attachment: fixed;
       width: 99%;}
 @media (max-width: 700px)
-       {body {background: lightgrey; }}
+       {body {background: lightgrey;}}
 header{display: flex;
        flex-wrap: wrap;
        justify-content: space-around;
@@ -25,7 +25,7 @@ nav {background: darkgrey;
 h1 {font-family: Copperplate;
          color: #191970;
          text-decoration: inherit;
-         font-size: 600%;
+         font-size: 5vw;
          display: flex;
          flex-wrap: wrap;}
 h2 {text-decoration: underline;
@@ -54,8 +54,8 @@ footer {display: flex;
 @media (max-width: 700px) {iframe {display: none;}}
 .logorecetario {width: 180px; height: 160px;
                 border-radius: 50%;}
-.linksheader  {width: 6vw;
-               height: 8vh;
+.linksheader  {width: 7vw;
+               height:;
                border-radius: 50%;
                padding: 10px ;}
 .button {font-family: fantasy;
@@ -116,3 +116,4 @@ footer {display: flex;
 .sobre {background: pink;}
 .img {width: 15vw;
       height: 15vh;}
+.ocultar {display: none;}
