@@ -1,11 +1,13 @@
-body.dark {   background:  #333; }
+body.dark {background:#333}
 body.dark h1 {color:#fff}
-body.dark h2 {color:#fff;}
-body.dark h3 {color:#fff;}
+body.dark h2 {color:#fff}
+body.dark h3 {color:#fff}
 body.dark section {color:#fff}
 body.dark .textogeneral {color:#fff}
+body.dark .button {color:#fff}
+body.dark .button {background:#333}
 .darkModeSwitch{
-    background: #191970;
+    background: black;
     display:flex;
     position: relative;
     cursor: pointer;
