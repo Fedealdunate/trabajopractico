@@ -1,0 +1,45 @@
+body.dark {   background:  #333; }
+body.dark h1 {color:#fff}
+body.dark h2 {color:#fff;}
+body.dark h3 {color:#fff;}
+body.dark section {color:#fff}
+body.dark .textogeneral {color:#fff}
+.darkModeSwitch{
+    background: #191970;
+    display:flex;
+    position: relative;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    border-radius: 1rem;
+    align-items: flex-start;
+    justify-content: space-between;
+    font-style: italic;
+    color:white;
+}
+.darkModeSwitch span{
+    width:45px;
+    height:15px;
+    line-height:30px;
+    display:block;
+    background:;
+}
+.darkModeSwitch::after{
+    display:block;
+    background:white;
+    width: 1.9rem;
+    height: 1.9rem;
+    position: absolute;
+    top:0;
+    left:0;
+    right:;
+    border-radius: 3rem;
+    transition: all .5s ease;
+}
+.darkModeSwitch.active{
+  background: white;
+}
+.darkModeSwitch.active::after{
+  left:unset;
+  right:0;
+}
