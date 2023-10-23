@@ -7,9 +7,11 @@ body.dark .textogeneral {color:#fff}
 body.dark .button {color:#fff}
 body.dark .button {background:#333}
 .darkModeSwitch{
-  line-height: auto;
-  bottom: 105%;
-  left: 94.5%;
+    font-family: sans-serif;
+    width: 7%;
+    font-size: 110%;
+    line-height: 95%;
+    left: 92%;
     background: grey;
     display:flex;
     position: relative;
@@ -17,9 +19,8 @@ body.dark .button {background:#333}
     outline: none;
     border: none;
     border-radius: 1rem;
-    align-items: flex-start;
+    align-items: baseline;
     justify-content: space-between;
-    font-style: italic;
     color:white;
 }
 .darkModeSwitch span{
