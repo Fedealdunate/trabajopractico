@@ -7,7 +7,10 @@ body.dark .textogeneral {color:#fff}
 body.dark .button {color:#fff}
 body.dark .button {background:#333}
 .darkModeSwitch{
-    background: black;
+  line-height: auto;
+  bottom: 105%;
+  left: 94.5%;
+    background: grey;
     display:flex;
     position: relative;
     cursor: pointer;
