@@ -54,6 +54,7 @@ footer {display: flex;
        justify-content: space-around;
        align-items: center;}
 @media (max-width: 700px) {iframe {display: none;}}
+
 .logorecetario {width: 16vw;
                 border-radius: 50%;}
 .linksheader  {width: 10vh;
