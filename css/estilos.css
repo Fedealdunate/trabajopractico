@@ -4,8 +4,7 @@ body {margin-left: 1vh;
       background-size: cover;
       background-attachment: fixed;
       width: 99%;}
-@media (max-width: 700px)
-       {body {background-image: linear-gradient(rgba(255, 255, 255, 0.08), rgba(255, 255, 255, 0.08)), url(../imagenes/fondoalternativo2.jpg);}}
+@media (max-width: 700px) {body {background-image: url(../imagenes/fondoalternativo2.jpg);}}
 header{display: flex;
        flex-direction: row;
        flex-wrap: wrap;
@@ -91,7 +90,7 @@ footer {display: flex;
              border-radius: 10px;}
 .videocabecera {border-radius: 10%;
                 width: 30vw;
-                height: 30vh;}             
+                height: 30vh;}
 .botonwhatsap {width: 65px;
                height: 65px;
                position: fixed;
