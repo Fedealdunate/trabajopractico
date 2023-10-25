@@ -50,7 +50,8 @@ aside {display: flex;
 footer {display: flex;
        flex-wrap: wrap;
        justify-content: space-around;
-       align-items: center;}
+       align-items: center;
+       background: black;}
 @media (max-width: 700px) {iframe {display: none;}}
 .logorecetario {width: 16vw;
                 border-radius: 50%;}
@@ -88,6 +89,9 @@ footer {display: flex;
              width: 30vw; height: 20vw;
              padding: 1px;
              border-radius: 10px;}
+.videocabecera {border-radius: 10%;
+                width: 30vw;
+                height: 30vh;}             
 .botonwhatsap {width: 65px;
                height: 65px;
                position: fixed;
@@ -107,12 +111,11 @@ footer {display: flex;
              height: 5vh;
              border-radius: 60%;
              }
-.videocabecera {border-radius: 10%;
-                width: 30vw;
-                height: 30vh;}
 .info {color: white;
        text-align: right;
-       font-size: 1.5vw;}
+       font-size: 1vw;}
 .sobre {background: pink;}
 .img {width: 15vw;
       height: 15vh;}
+.mapa {width: 12vw;
+       height: 12vh;}
