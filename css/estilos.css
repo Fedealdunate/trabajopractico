@@ -5,7 +5,7 @@ body {margin-left: 1vh;
       background-attachment: fixed;
       width: 99%;}
 @media (max-width: 700px)
-       {body {background: lightgrey;}}
+       {body {background-image: linear-gradient(rgba(255, 255, 255, 0.08), rgba(255, 255, 255, 0.08)), url(../imagenes/fondoalternativo2.jpg);}}
 header{display: flex;
        flex-direction: row;
        flex-wrap: wrap;
@@ -20,9 +20,7 @@ nav {background: darkgrey;
      color: black;
      flex-wrap: wrap;
      width: auto;
-     border: solid lightblue 0.5vh;
-     }
-@media (max-width: 700px) {nav {background-color: lightgrey; border: none;}}
+     border: solid lightblue 0.5vh;}
 h1 {font-family: Copperplate;
          font-size: 50px;
          color: #191970;
@@ -54,7 +52,6 @@ footer {display: flex;
        justify-content: space-around;
        align-items: center;}
 @media (max-width: 700px) {iframe {display: none;}}
-
 .logorecetario {width: 16vw;
                 border-radius: 50%;}
 .linksheader  {width: 10vh;

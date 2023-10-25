@@ -38,12 +38,9 @@
   right:0;
 }
 body.dark {background:#333}
-body.dark h1 {color:#fff}
-body.dark h2 {color:#fff}
-body.dark h3 {color:#fff}
-body.dark section {color:#fff}
-body.dark .textogeneral {color:#fff}
+body.dark h1 {color:white}
+body.dark h2 {color:white}
+body.dark h3 {color:white}
+body.dark .textogeneral {color:white}
 body.dark nav {background: none; border: white;}
 body.dark .button {color: white;}
-@media (max-width: 700px)
-       {.darkModeSwitch {display: none;}}
