@@ -10,8 +10,8 @@
     justify-content: space-between;
 }
 .darkModeSwitch span{
-    width:60px;
-    height:30px;
+    width:30px;
+    height:28px;
     line-height:30px;
     display:block;
     color:#fff;
@@ -45,3 +45,5 @@ body.dark h2 {color:#fff}
 body.dark h3 {color:#fff}
 body.dark section {color:#fff}
 body.dark .textogeneral {color:#fff}
+@media (max-width: 700px)
+       {.darkModeSwitch {display: none;}}
