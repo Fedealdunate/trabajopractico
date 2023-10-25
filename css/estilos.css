@@ -5,7 +5,7 @@ body {margin-left: 1vh;
       background-attachment: fixed;
       width: 99%;}
 @media (max-width: 700px)
-        {body {background: pink; }}
+        {body {background-image: linear-gradient(rgba(255, 255, 255, 0.08), rgba(255, 255, 255, 0.08)), url(../imagenes/fondoalternativo2.JPG);}}
 header{display: flex;
        flex-direction: row;
        flex-wrap: wrap;
