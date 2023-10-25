@@ -4,7 +4,8 @@ body {margin-left: 1vh;
       background-size: cover;
       background-attachment: fixed;
       width: 99%;}
-@media (max-width: 700px) {body {background-image: url(../imagenes/fondoalternativo2.jpg);}}
+@media (max-width: 700px)
+        {body {background: pink; }}
 header{display: flex;
        flex-direction: row;
        flex-wrap: wrap;
